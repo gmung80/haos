@@ -26,7 +26,7 @@ esphome:
   friendly_name: M5Stack Atom VoiceS3R Voice Assistant
   name_add_mac_suffix: true
   project: 
-    name: m5stack.voices3r-satellite
+    name: m5stack.voices3r-satellite 
     version: 2026.10.0
   min_version: 2026.10.0
   on_boot:
