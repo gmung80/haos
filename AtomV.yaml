@@ -1,5 +1,5 @@
 substitutions:
-  name: m5stack-atom-echo
+  name: AtomV
   friendly_name: M5Stack Atom Echo
 
 esphome:
@@ -66,7 +66,7 @@ media_player:
     volume_min: 0.4
     files:
       - id: timer_finished_wave_file
-        file: https://github.com/esphome/wake-word-voice-assistants/raw/main/sounds/timer_finished.wav
+        file: http://192.168.88.10/local/word_finished.flac
     on_announcement:
       - if:
           condition:
