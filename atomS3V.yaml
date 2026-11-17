@@ -17,9 +17,9 @@ substitutions:
   voice_assist_muted_phase_id: "12"
   # Finished timer phase
   voice_assist_timer_finished_phase_id: "20"
-  wake_word_triggered_sound_file: https://github.com/esphome/home-assistant-voice-pe/raw/dev/sounds/wake_word_triggered.flac
+  wake_word_triggered_sound_file: http://192.168.88.10/local/word_arm.flac
   error_cloud_expired_file: https://github.com/esphome/home-assistant-voice-pe/raw/dev/sounds/error_cloud_expired.mp3
-  timer_finished_sound_file: https://github.com/esphome/home-assistant-voice-pe/raw/dev/sounds/timer_finished.flac
+  timer_finished_sound_file: http://192.168.88.10/local/word_finished.flac
 
 esphome:
   name: atom-voices3r
