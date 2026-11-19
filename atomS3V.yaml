@@ -365,7 +365,7 @@ micro_wake_word:
   models:
     - model: okay_nabu
       id: okay_nabu
-    - model: Tars
+    - model: tars
       id: tars
     - model: hey_jarvis
       id: hey_jarvis
