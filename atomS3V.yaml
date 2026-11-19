@@ -365,6 +365,8 @@ micro_wake_word:
   models:
     - model: okay_nabu
       id: okay_nabu
+    - model: Tars
+      id: tars
     - model: hey_jarvis
       id: hey_jarvis
     - model: hey_mycroft
@@ -512,14 +514,17 @@ select:
           if (x == "Slightly sensitive") {
             id(okay_nabu).set_probability_cutoff(217);
             id(hey_jarvis).set_probability_cutoff(247);
+            id(tars).set_probability_cutoff(248);
             id(hey_mycroft).set_probability_cutoff(253);
           } else if (x == "Moderately sensitive") {
             id(okay_nabu).set_probability_cutoff(176);
             id(hey_jarvis).set_probability_cutoff(235);
+            id(tars).set_probability_cutoff(236);
             id(hey_mycroft).set_probability_cutoff(242);
           } else if (x == "Very sensitive") {
             id(okay_nabu).set_probability_cutoff(143);
             id(hey_jarvis).set_probability_cutoff(212);
+            id(tars).set_probability_cutoff(213);
             id(hey_mycroft).set_probability_cutoff(237);
           }
 
